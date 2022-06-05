@@ -67,8 +67,8 @@ ul li:hover ul li{
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    line-height: 50px;
-    font-size: 30px;
+    line-height: clamp(1rem,3rem,5rem);
+    font-size: clamp(2rem,5rem,8rem);
     max-width:100%;
     min-height:500px;
     
@@ -99,9 +99,9 @@ ul li:hover ul li{
     float: left;
 }
 #box{
-    padding: 10px;
+    padding:clamp(1rem,3rem,5rem);
     background-color: white;
-    margin-bottom: 200px;
+    margin-bottom: clamp(2rem,5rem,7rem);
 }
 .text{
     color: purple;
