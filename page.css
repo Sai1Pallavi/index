@@ -1,7 +1,7 @@
 div.nav{
     position: relative;
     width: 100%;
-    min-height:60px;
+    height:60px;
     background-color:white;
     box-shadow: 0 5px 10px antiquewhite;
     float: right;
@@ -21,8 +21,8 @@ div.nav{
 }
 ul li{
     float: right;
-    max-width: 140px;
-    min-height: 20px;
+    width: 140px;
+    height: 20px;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -41,7 +41,7 @@ ul li ul li{
     color: black;
     background-color: white;
     box-shadow: 0 5px 10px antiquewhite;
-    min-height: 10px;
+    height: 10px;
    
 }
 ul li:hover ul li{
@@ -70,9 +70,6 @@ ul li:hover ul li{
     text-align: center;
     line-height: 50px;
     font-size: 30px;
-    max-width:100%;
-    min-height:500px;
-    
 }
 .rem{
     padding: 200px;
@@ -85,12 +82,12 @@ ul li:hover ul li{
 }
 <!--sustain-->
 .abp{
-   max-width: 100%;
+   width: 100%;
 }
 .abr{
     margin-left: 50%;
-    max-width:40%;
-    min-height: 50%;
+    width:40%;
+    height: 50%;
     line-height: 30px;
     text-align: justify;
     font-size: 20px;
@@ -112,8 +109,8 @@ ul li:hover ul li{
 }
 .size{
     float: left;
-    max-width:  200px;
-    min-height: 210px;
+    width:  200px;
+    height: 210px;
 
 }
 .single{
@@ -122,8 +119,8 @@ ul li:hover ul li{
 }
 .size1{
     float: left;
-    max-width:  400px;
-    min-height: 410px;
+    width:  400px;
+    height: 410px;
     padding: 50px;
 }
 .gap{
@@ -134,8 +131,8 @@ ul li:hover ul li{
 }
 .side{
     float: left;
-    max-width: 300px;
-    min-height: 300px;
+    width: 300px;
+    height: 300px;
     padding: 50px;
     object-fit: cover;
 }
@@ -144,15 +141,15 @@ ul li:hover ul li{
     text-align: center;
 }
 .wrap{
-    min-height: 300px;
+    height: 300px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
 div.create{
     position: relative;
-    max-width: 100%;
-    min-height: 300px;
+    width: 100%;
+    height: 300px;
     background-color: whitesmoke;
 }
 .tleft{
@@ -186,10 +183,10 @@ div.create{
 }
 <!--pandd-->
 .sds{
-    max-width: 100%;
+    width: 100%;
 }
 .sl{
-    max-width: 40%;
+    width: 40%;
     float: left;
     text-align: justify;
     line-height: 40px;
@@ -197,7 +194,7 @@ div.create{
     padding: 60px;
 }
 .sr{
-    max-width: 40%;
+    width: 40%;
     margin-left: 50%;
     text-align: justify;
     line-height: 40px ;
@@ -206,10 +203,10 @@ div.create{
 }
 <!--contact-->
 .con{
-    max-width: 100%;
+    width: 100%;
 }
 .conl{
-    max-width: 50%;
+    width: 50%;
     float: left;
     margin-left: 40px;
     font-size: 20px;
@@ -222,7 +219,7 @@ div.create{
 }
 .conrin{
     padding: 10px;
-    max-width: 40%;
+    width: 40%;
     font-size: 10px;
     border: none;
 }
