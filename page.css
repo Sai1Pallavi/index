@@ -62,13 +62,14 @@ ul li:hover ul li{
     
 }
 .main{
-    padding: clamp(100px,600px,1000px);
+    padding: clamp(1 em,2 em,3 em);
     background-image: url('./main.jfif');
     background-repeat: no-repeat;
+    background-size:100% 80%;
     color: white;
     text-align: center;
-    line-height: clamp(1rem,3rem,5rem);
-    font-size: clamp(2rem,5rem,8rem);
+    line-height: clamp(1 rem,2 rem,3 rem);
+    font-size: clamp(0.5 rem,1.5 rem,3 rem);
     max-width:100%;
     min-height:500px;
     
